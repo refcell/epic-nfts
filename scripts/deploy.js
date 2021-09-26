@@ -1,6 +1,6 @@
 const main = async () => {
   // ** Compiles contract and generates build under artifacts directory
-  const nftContractFactory = await hre.ethers.getContractFactory('MyEpicNFT');
+  const nftContractFactory = await hre.ethers.getContractFactory('EpicNFT');
 
   // ** Creates a local network and deploys the contract
   // ** This network will be destroyed when this script is done executing
