@@ -741,7 +741,7 @@ contract TheEpics is ERC721URIStorage {
         string memory list_name,
         uint256 tokenId,
         string[] memory list
-    ) public view returns (string memory) {
+    ) public pure returns (string memory) {
         // Seed the random generator
         uint256 rand = random(
             string(abi.encodePacked(list_name, Strings.toString(tokenId)))
@@ -763,7 +763,7 @@ contract TheEpics is ERC721URIStorage {
     }
 
     /// @notice get the max allowed number of minted tokens
-    function getMaxMintCount() public view returns (uint256) {
+    function getMaxMintCount() public pure returns (uint256) {
         return MAX_MINT_COUNT;
     }
 
