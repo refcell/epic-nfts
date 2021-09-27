@@ -44,9 +44,14 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 A loot-inspired Dinosaurs and Caves game.
 
-Contract: 0x908f9AfF6eE262946d5A350c2C0e0388670cf5E4
-Collection: https://testnets.opensea.io/collection/epiccontract
+Version 2
+Contract: `0x908f9AfF6eE262946d5A350c2C0e0388670cf5E4`
+[Opensea Collection](https://testnets.opensea.io/collection/epiccontract)
 
+
+Version 1
+Contract: `0x908f9AfF6eE262946d5A350c2C0e0388670cf5E4`
+[Opensea Collection](https://testnets.opensea.io/collection/epiccontract)
 
 
 ## Animated Contract NFT - not dynamic :/ yet...
