@@ -62,6 +62,17 @@ Contract: `0x908f9AfF6eE262946d5A350c2C0e0388670cf5E4`
 [Opensea Collection](https://testnets.opensea.io/collection/epiccontract)
 
 
+## Useful Tools:
+
+[JSON Keeper](https://jsonkeeper.com/)
+
+[Base64 Encoder/Decoder](https://www.utilities-online.info/base64)
+
+[Online SVG Viewer](https://www.svgviewer.dev/)
+
+[Free Animated SVGs](https://getloaf.io/)
+
+
 ## Animated Contract NFT - not dynamic :/ yet...
 
 Contract svg exists in `./assets/contract.svg`
