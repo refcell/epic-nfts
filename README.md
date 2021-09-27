@@ -44,6 +44,10 @@ npx hardhat run scripts/deploy.js --network rinkeby
 
 A loot-inspired Dinosaurs and Caves game.
 
+Version 4 (indexed events)
+Contract: `0x9548a49f25b1C80FB451ec40cC0401C067D4F6AF`
+[Opensea Collection](https://testnets.opensea.io/collection/the-epics)
+
 Version 3
 Contract: `0x0a2315A245c0E9d3F0275e0733892Ed76Aa2d6d6`
 [Opensea Collection](https://testnets.opensea.io/collection/the-epics)

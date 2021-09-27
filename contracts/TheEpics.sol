@@ -729,7 +729,7 @@ contract TheEpics is ERC721URIStorage {
     // string[] swampFolk = ["Banks", "Bankes", "Black", "Blacktide", "Greentide", "Boggs", "Bogg", "Bogs", "Bull", "Buzzfly", "Blackfly", "Shoefly", "Cray", "Craw", "Cricketts", "Crickets", "Darkwater", "Dragonfly", "Dragon", "Eeler", "Ealer", "Eeles", "Eales", "Fisher", "Fishman", "Frogg", "Frogman", "Green", "Greene", "Greenwater", "Blackwater", "Grey", "Gray", "Grove", "Groves", "Hook", "Hooke", "Hopper", "Marsh", "Mayfly", "May", "Moss", "Mosstree", "Greentree", "Poisonweed", "Poisonwood", "Polly", "Pollywog", "Polliwog", "Rafman", "Raftman", "Ratt", "Ratman", "Reed", "Reede", "Reedy", "River", "Rivers", "Rotten", "Rotman", "Scales", "Greenscale", "Blackscale", "Shell", "Shellman", "Sheller", "Shelley", "Skeeter", "Skito", "Small", "Smalls", "Snails", "Snailman", "Stillwater", "Swimmer", "Shwimmer", "Swymmer", "Thick", "Thicke", "Tidewater", "Vines", "Waters", "Watters", "Wurms", "Worms"];
 
     /// @notice Event for minting the NFT
-    event EpicMinted(uint256 id, address from);
+    event EpicMinted(uint256 indexed id, address from);
 
     /// @notice Pass name and symbol of our token to the ERC721 constructor
     constructor() ERC721("The Epics", "EPIC") {
@@ -766,6 +766,14 @@ contract TheEpics is ERC721URIStorage {
     function getMaxMintCount() public pure returns (uint256) {
         return MAX_MINT_COUNT;
     }
+
+    // /// @notice gets all tokens for a given user
+    // function getUserTokens() public pure returns (uint256[] memory) {
+    //     uint256[] memory tokens;
+    //     for (uint256 i = 0; i < 1337; i++) {
+    //         tokenOfOwnerByIndex(msg.sender, i);
+    //     }
+    // }
 
     /// @notice Minting function
     function makeAnEpicNFT() public {
