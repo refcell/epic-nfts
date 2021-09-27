@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 350 350'>
+  <style>
+    .base {
+      fill: white;
+      font-family:
+      serif;
+      font-size: 24px;
+      background-image: linear-gradient(to left, #60c657, #35aee2);
+    }
+    .rect-gradient {
+      background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+    }
+  </style>
+  <rect class="rect-gradient" width='100%' height='100%' fill='-webkit-linear-gradient(left, #60c657, #35aee2)' />
+  <text class='base' margin='2px' x='4%' y='8%'>Redmoon</text>
+  <text class='base' margin='2px' x='4%' y='16%'>Greenyard</text>
+  <text class='base' margin='2px' x='4%' y='24%'>Brewer</text>
+  <text class='base' margin='2px' x='4%' y='32%'>Hardland</text>
+  <text class='base' margin='2px' x='4%' y='40%'>Bolt</text>
+  <text class='base' margin='2px' x='4%' y='48%'>Sunner</text>
+  <text class='base' margin='2px' x='4%' y='56%'>Roof</text>
+  <text class='base' margin='2px' x='4%' y='64%'>Dragon</text>
+</svg>

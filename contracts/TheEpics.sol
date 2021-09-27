@@ -863,6 +863,10 @@ contract TheEpics is ERC721URIStorage {
             )
         );
 
+        console.log("Final SVG:\n");
+        console.log(finalSvg);
+        console.log("\n");
+
         // Get all the JSON metadata in place and base64 encode it.
         string memory json = Base64.encode(
             bytes(
